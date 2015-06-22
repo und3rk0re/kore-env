@@ -1,0 +1,21 @@
+{
+    "name": "k0re/env",
+    "type": "library",
+    "description": "Simple PHP environment setup",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Und3rk0re",
+            "email": "und3rk0re@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "K0re\\Env\\": "src/K0re/Env"
+      }
+    },
+    "require": {
+      "php": ">=5.3"
+    }
+}
